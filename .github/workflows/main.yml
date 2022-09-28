@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: hichammounchit/hello-world-docker-action@v1
+        uses: hichammounchit/hello-world-docker-action@v5
         with:
           who-to-greet: 'HiCHAM the docker man'
       # Use the output from the `hello` step
